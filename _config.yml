@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "duanhaixin.jpeg"
   name             : "Professor Haixin Duan"
   pronouns         : # example: "his"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Beijing"
+  location         : "Beijing,China"
   employer         : "Tsinghua University"
   uri              : # URL
   email            : "duanhx@tsinghua.edu.cn" 
