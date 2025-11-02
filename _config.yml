@@ -25,7 +25,7 @@ author:
   avatar           : "duanhaixin.jpeg"
   name             : "Professor Haixin Duan"
   pronouns         : # example: "his"  
-  bio              : "Short biography for the left-hand sidebar"
+  #bio              : "Short biography for the left-hand sidebar"
   location         : "Beijing,China"
   employer         : "Tsinghua University"
   uri              : # URL
