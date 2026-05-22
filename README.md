@@ -44,6 +44,47 @@ python3 -m http.server 8080
 # 浏览器打开 http://localhost:8080
 ```
 
+## 搜索引擎收录与站长平台提交
+
+站点已准备好以下 SEO 文件和标签：
+
+- `robots.txt`：允许搜索引擎抓取全站，并声明 `https://duanhaixin.cn/sitemap.xml`
+- `sitemap.xml`：提交中文主页和英文页，并标注双语 alternate URL
+- `index.html` / `en.html`：包含 canonical、hreflang、Open Graph、Twitter Card、Person 结构化数据
+
+### Google Search Console
+
+1. 访问 `https://search.google.com/search-console`，使用自己的 Google 账号登录。
+2. 添加资源，推荐选择 Domain property：`duanhaixin.cn`。
+3. 按 Google 提示完成所有权验证。对 GitHub Pages 自定义域名，优先使用 DNS TXT 记录验证；也可使用 HTML 文件或 meta 标签验证。
+4. 验证通过后进入 `Sitemaps`，提交：
+
+```text
+https://duanhaixin.cn/sitemap.xml
+```
+
+5. 对 `https://duanhaixin.cn/` 和 `https://duanhaixin.cn/en.html` 使用 URL Inspection，确认可抓取后请求编入索引。
+
+### 百度搜索资源平台
+
+1. 访问 `https://ziyuan.baidu.com/`，使用自己的百度账号登录。
+2. 在站点管理中添加站点：`https://duanhaixin.cn`。
+3. 按百度提示完成站点验证。可选择 DNS 验证、HTML 文件验证或 meta 标签验证。
+4. 验证通过后，在资源提交 / 普通收录 / Sitemap 中提交：
+
+```text
+https://duanhaixin.cn/sitemap.xml
+```
+
+5. 如果百度提供手动提交入口，也建议提交：
+
+```text
+https://duanhaixin.cn/
+https://duanhaixin.cn/en.html
+```
+
+> 注意：站点验证 token 与账号绑定，不能提前写死在仓库里。拿到 Google 或百度给出的 HTML 文件名、meta 标签或 DNS TXT 值后，再按平台要求添加即可。
+
 ## 添加新论文
 
 在 `index.html` 的 `pub-list` 中复制以下模板：
