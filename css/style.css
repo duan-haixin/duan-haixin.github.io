@@ -135,6 +135,28 @@ section { margin-bottom: 56px; }
   font-weight: 500;
 }
 
+/* ── news ─────────────────────────────────────────────────── */
+.news-list { display: flex; flex-direction: column; gap: 14px; }
+.news-item {
+  display: grid;
+  grid-template-columns: 78px 1fr;
+  gap: 16px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  box-shadow: var(--shadow);
+}
+.news-date {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 15px;
+}
+.news-content { color: var(--text); font-size: 15px; }
+.news-content a { font-weight: 700; }
+.news-more { margin-left: 8px; white-space: nowrap; }
+
 /* ── timeline (experience & education) ───────────────────── */
 .timeline { position: relative; padding-left: 28px; }
 .timeline::before {
