@@ -224,6 +224,8 @@ section { margin-bottom: 56px; }
 .level-ug { background: #dff0d8; color: #2d6a2d; }
 .level-pg { background: #dce8fb; color: #1a4b8e; }
 .course-name { font-size: 16px; font-weight: 700; color: var(--blue); margin-bottom: 6px; }
+.course-name a { color: inherit; border-bottom: 1px solid rgba(30,55,153,.28); }
+.course-name a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .course-desc { font-size: 14px; color: var(--muted); }
 .course-meta { margin-top: 10px; font-size: 13px; color: var(--muted); display: flex; gap: 12px; }
 

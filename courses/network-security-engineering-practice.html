@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>网络安全工程与实践课程大纲 | Network Security Engineering and Practice</title>
+  <meta name="description" content="网络安全工程与实践课程中英文大纲，包含课程简介、教学目标、课程内容、在线实验与考核方式。" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .syllabus-hero { background: linear-gradient(135deg, var(--blue) 0%, var(--blue-mid) 100%); color: var(--white); padding: 44px 24px; }
+    .syllabus-hero .container { max-width: 980px; }
+    .syllabus-hero h1 { font-size: 30px; line-height: 1.35; margin-bottom: 8px; }
+    .syllabus-hero p { opacity: .86; }
+    .syllabus-nav { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
+    .syllabus-nav a { color: var(--white); border: 1px solid rgba(255,255,255,.45); border-radius: 999px; padding: 5px 14px; font-size: 14px; }
+    .syllabus-main { max-width: 980px; margin: 0 auto; padding: 36px 24px 56px; }
+    .syllabus-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px; }
+    .syllabus-card h2 { color: var(--blue); border-bottom: 2px solid var(--border); padding-bottom: 8px; margin: 26px 0 16px; }
+    .syllabus-card h2:first-child { margin-top: 0; }
+    .syllabus-card h3 { color: var(--blue); margin: 22px 0 10px; font-size: 18px; }
+    .syllabus-card h4 { margin: 18px 0 8px; font-size: 16px; color: var(--text); }
+    .syllabus-card p, .syllabus-card li { color: var(--text); font-size: 15px; line-height: 1.75; }
+    .syllabus-card ul, .syllabus-card ol { padding-left: 24px; margin: 8px 0 14px; }
+    .table-wrap { overflow-x: auto; margin: 14px 0 20px; border: 1px solid var(--border); border-radius: var(--radius); }
+    .syllabus-card table { width: 100%; border-collapse: collapse; font-size: 14px; background: var(--white); }
+    .syllabus-card th { background: var(--blue-light); color: var(--blue); text-align: left; font-weight: 700; }
+    .syllabus-card th, .syllabus-card td { border-bottom: 1px solid var(--border); padding: 10px 12px; vertical-align: top; }
+    .syllabus-card tr:last-child td { border-bottom: 0; }
+    .back-link { display: inline-flex; margin-bottom: 18px; font-weight: 600; }
+    @media (max-width: 640px) { .syllabus-card { padding: 20px; } .syllabus-hero h1 { font-size: 24px; } }
+  </style>
+</head>
+<body>
+  <div class="syllabus-hero">
+    <div class="container">
+      <h1>网络安全工程与实践课程大纲</h1>
+      <p>Course Syllabus: Network Security Engineering and Practice</p>
+      <div class="syllabus-nav">
+        <a href="../index.html#courses">返回中文主页</a>
+        <a href="../en.html#courses">Back to English homepage</a>
+        <a href="#course-syllabus-network-security-engineering-and-practice">English Version</a>
+      </div>
+    </div>
+  </div>
+  <main class="syllabus-main">
+    <a class="back-link" href="../index.html#courses">← 返回主讲课程</a>
+    <article class="syllabus-card">
+<h2>网络安全工程与实践课程大纲</h2>
+<h3>中文版</h3>
+<h4>一、课程基本信息</h4>
+<ul>
+<li>课程名称：网络安全工程与实践</li>
+<li>英文名称：Network Security Engineering and Practice</li>
+<li>开课院系：清华大学计算机系</li>
+<li>课程性质：本科专业选修课</li>
+<li>学时学分：32 学时，2 学分</li>
+<li>教学形式：课堂讲授、案例分析、在线实验、课堂讨论与展示</li>
+<li>实验形式：课外完成 6 个在线实验，实验环境基于 SecLab 实验平台</li>
+<li>参考教材：段海新，《计算机网络安全实践教程》，清华大学出版社</li>
+</ul>
+<h4>二、课程简介</h4>
+<p>本课程面向具有计算机网络、操作系统和程序设计基础的本科生，围绕互联网基础设施、通信协议、密码机制、软件系统和 Web 应用中的典型安全问题，讲授网络安全工程中的基本概念、攻击原理、防护机制和实践方法。课程强调“理解系统、分析风险、构造攻击、设计防护”的工程化思维，通过真实安全事件、协议漏洞案例和在线实验，帮助学生建立从威胁建模到漏洞分析、从流量观察到安全加固的系统能力。</p>
+<p>课程内容覆盖网络安全风险分析，局域网与 TCP/IP 协议安全，DNS 安全，常用密码算法、公钥基础设施与 TLS，虚拟专用网络，软件安全，栈溢出漏洞，以及 Web 安全策略和常见攻击防御。学生需在课外独立完成 6 个在线实验，并提交实验报告。</p>
+<h4>三、课程目标</h4>
+<p>完成本课程后，学生应能够：</p>
+<ol>
+<li>理解网络安全的基本目标、攻防对抗特征、威胁建模方法和风险分析框架。</li>
+<li>掌握常用网络分析与数据包构造工具，能够观察、解释和分析典型网络通信过程。</li>
+<li>解释局域网、DNS、TCP/IP、TLS、PKI、VPN、Web 和软件系统中的主要安全问题。</li>
+<li>分析典型漏洞和攻击的成因、攻击面、利用条件、影响范围和防护思路。</li>
+<li>在受控实验环境中完成流量分析、局域网攻击、DNS 缓存污染、VPN、Web 安全、软件漏洞分析等实践任务。</li>
+<li>形成网络安全实践中的法律、伦理和责任意识，遵守实验边界，不侵犯他人系统与隐私。</li>
+</ol>
+<h4>四、先修要求</h4>
+<p>学生应具备计算机网络、操作系统、Linux/Unix 基础、程序设计和基础密码学相关知识。建议熟悉命令行操作，并能够使用 Wireshark、tcpdump、dig、Scapy、Burp Suite 等常见网络安全工具。</p>
+<h4>五、课程内容与学时安排</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>模块</th><th>主要内容</th><th>建议学时</th></tr></thead>
+<tbody>
+<tr><td>课程导论与网络安全概览</td><td>课程定位；网络空间安全学科背景；网络安全的本质；攻防对抗与成本收益；CIA 安全目标；认证、访问控制、抗抵赖、可追查性与匿名性；法律伦理与实验规范</td><td>2</td></tr>
+<tr><td>风险分析与威胁建模</td><td>资产、漏洞、威胁；个人、企业和基础设施场景中的安全资产；典型安全事件分析；威胁建模方法</td><td>2</td></tr>
+<tr><td>网络概念、协议与常用工具</td><td>TCP/IP 与 OSI 模型；网络拓扑、交换、路由、DNS、HTTP；tcpdump、Wireshark、dig、Scapy 等工具；流量捕获与协议分析</td><td>4</td></tr>
+<tr><td>局域网安全与口令安全</td><td>交换机工作原理及问题；ARP 欺骗及防范；DHCP 攻击及防范；报文嗅探；口令猜解与摘要认证口令破解</td><td>2</td></tr>
+<tr><td>TCP/IP 协议安全</td><td>IP 分片与地址伪造；IPv6 安全；TCP 状态管理；SYN Flood；序列号预测；TCP 劫持；TCP RST 攻击及防护</td><td>4</td></tr>
+<tr><td>DNS 安全</td><td>DNS 系统功能、协议格式和解析过程；根域名系统及治理；DNS 攻击面；路径劫持与注入；缓存污染攻击；DNS 反射放大攻击；DNSSEC、DoT/DoH 等防护机制</td><td>4</td></tr>
+<tr><td>密码技术基础</td><td>古典密码与现代密码思想；Hash、对称密钥算法、公开密钥算法；密钥协商；安全通信协议的认证、机密性、完整性和密钥管理需求</td><td>4</td></tr>
+<tr><td>PKI、TLS 与 VPN</td><td>公钥基础设施、CA 与证书生命周期；Web PKI 信任模型及攻击；证书撤销、Certificate Transparency；TLS 工作原理与典型攻击；TLS VPN 与其他 VPN</td><td>4</td></tr>
+<tr><td>软件安全与漏洞利用</td><td>软件安全威胁分类；恶意软件、软件破解、软件漏洞；供应链安全；栈溢出漏洞原理、根因分析、利用可靠性与漏洞缓解机制</td><td>4</td></tr>
+<tr><td>Web 安全</td><td>Web 与 HTTP 基础；前端、后端、数据库与 Web 架构；同源策略、Cookie、CSP 等安全策略；XSS、CSRF、SQL 注入、文件上传等攻击及防御；OWASP Top 10</td><td>2</td></tr>
+<tr><td>合计</td><td></td><td>32</td></tr>
+</tbody></table></div>
+<h4>六、课外在线实验</h4>
+<p>课程包含 6 个课外在线实验，每名学生独立使用 SecLab 实验平台完成实验环境操作、结果验证和实验报告撰写。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>实验</th><th>名称</th><th>主要目标</th></tr></thead>
+<tbody>
+<tr><td>实验一</td><td>流量分析与数据包构造工具</td><td>熟悉实验平台、网络拓扑与基础协议；使用 tcpdump、Wireshark、dig、Scapy 等工具进行流量捕获、协议分析和数据包构造</td></tr>
+<tr><td>实验二</td><td>局域网攻击及口令破解</td><td>理解局域网中的 ARP/DHCP 等安全问题，完成报文嗅探、中间人攻击场景观察、弱口令或摘要认证口令分析</td></tr>
+<tr><td>实验三</td><td>DNS 缓存污染攻击与防范</td><td>理解 DNS 解析流程、DNS 攻击面和缓存污染原理，在受控环境中完成攻击复现并分析防护机制</td></tr>
+<tr><td>实验四</td><td>虚拟专用网络（VPN）</td><td>理解 VPN 的基本原理、隧道通信和安全通信需求，完成 VPN 相关配置、连通性验证和安全分析</td></tr>
+<tr><td>实验五</td><td>Web 网站安全</td><td>分析 Web 应用中的认证、Cookie、同源策略和常见漏洞，实践 XSS、CSRF、SQL 注入或文件上传等典型问题的验证与防护</td></tr>
+<tr><td>实验六</td><td>软件漏洞分析与利用</td><td>分析软件漏洞成因，理解栈溢出等典型漏洞的触发、利用和缓解机制，完成受控漏洞分析实验</td></tr>
+</tbody></table></div>
+<p>参考实验节奏：课程开始后按约两周一个实验推进，实验一至实验六依次覆盖网络基础工具、局域网安全、DNS 安全、VPN、Web 安全和软件漏洞分析。遇到期中繁忙周可适当顺延，所有实验应在课程结束前完成。</p>
+<p>实验报告要求包括主要操作步骤、关键步骤截图、配置或命令记录、代码或脚本、流量抓取分析、问题总结与探索。每个实验单独提交一份报告。</p>
+<h4>七、考核方式</h4>
+<ul>
+<li>平时实验/作业：主要依据实验报告、代码或脚本、实验完成质量、分析深度和按时提交情况评定。</li>
+<li>课堂参与和表现：主要依据课堂讨论、问题回答、实验分享和课堂展示情况评定。</li>
+</ul>
+<h4>八、教学要求与学术规范</h4>
+<p>课程实验仅限在授权的 SecLab 在线实验环境中完成。学生应遵守网络安全法律法规、学校教学纪律和科研伦理，尊重他人系统、数据和隐私。未经授权不得对真实网络、第三方系统或他人账户进行扫描、攻击、测试或数据获取。</p>
+<p>---</p>
+<h2>Course Syllabus: Network Security Engineering and Practice</h2>
+<h3>English Version</h3>
+<h4>1. Basic Information</h4>
+<ul>
+<li>Course Title: Network Security Engineering and Practice</li>
+<li>Offering Department: Department of Computer Science and Technology, Tsinghua University</li>
+<li>Course Type: Undergraduate professional elective</li>
+<li>Contact Hours and Credits: 32 contact hours, 2 credits</li>
+<li>Teaching Format: Lectures, case studies, online labs, discussions, and student presentations</li>
+<li>Lab Format: Six online labs completed outside class, hosted on the SecLab platform</li>
+<li>Reference Textbook: Haixin Duan, <em>Practical Tutorial on Computer Network Security</em>, Tsinghua University Press</li>
+</ul>
+<h4>2. Course Description</h4>
+<p>This course introduces the engineering principles and practical methods of network security. It is designed for undergraduate students with background knowledge in computer networks, operating systems, and programming. The course examines representative security problems in Internet infrastructure, communication protocols, cryptographic mechanisms, software systems, and Web applications.</p>
+<p>The course emphasizes an engineering mindset of understanding systems, analyzing risks, constructing attacks, and designing defenses. Through real-world incidents, protocol vulnerability cases, and online hands-on labs, students will develop systematic skills in threat modeling, vulnerability analysis, traffic inspection, attack reproduction in controlled environments, and defensive reasoning.</p>
+<p>Major topics include security risk analysis, LAN and TCP/IP security, DNS security, cryptographic algorithms, PKI and TLS, VPNs, software security, stack-based buffer overflow vulnerabilities, and Web security policies and defenses. Students are required to complete six independent online labs outside class and submit lab reports.</p>
+<h4>3. Learning Objectives</h4>
+<p>Upon successful completion of this course, students will be able to:</p>
+<ol>
+<li>Explain fundamental security goals, adversarial thinking, threat modeling, and risk analysis.</li>
+<li>Use common network analysis and packet construction tools to observe and analyze network communication.</li>
+<li>Describe major security issues in LANs, DNS, TCP/IP, TLS, PKI, VPNs, Web applications, and software systems.</li>
+<li>Analyze the root causes, attack surfaces, exploitation conditions, impacts, and mitigation strategies of representative vulnerabilities.</li>
+<li>Complete hands-on tasks in traffic analysis, LAN attacks, DNS cache poisoning, VPN configuration, Web security, and software vulnerability analysis in a controlled environment.</li>
+<li>Understand the legal, ethical, and professional responsibilities of cybersecurity practice and respect the boundaries of authorized experiments.</li>
+</ol>
+<h4>4. Prerequisites</h4>
+<p>Students should have basic knowledge of computer networks, operating systems, Linux/Unix, programming, and introductory cryptography. Familiarity with command-line operations and tools such as Wireshark, tcpdump, dig, Scapy, and Burp Suite is recommended.</p>
+<h4>5. Topics and Contact Hours</h4>
+<div class="table-wrap"><table>
+<thead><tr><th>Module</th><th>Topics</th><th>Hours</th></tr></thead>
+<tbody>
+<tr><td>Course Introduction and Security Overview</td><td>Course motivation; cybersecurity as a discipline; adversarial nature of security; cost-benefit tradeoffs in attack and defense; CIA goals; authentication, access control, non-repudiation, accountability, anonymity; ethics and lab rules</td><td>2</td></tr>
+<tr><td>Risk Analysis and Threat Modeling</td><td>Assets, vulnerabilities, and threats; personal, enterprise, and infrastructure assets; case studies of security incidents; threat modeling methods</td><td>2</td></tr>
+<tr><td>Network Concepts, Protocols, and Tools</td><td>TCP/IP and OSI models; topology, switching, routing, DNS, HTTP; tcpdump, Wireshark, dig, Scapy; traffic capture and protocol analysis</td><td>4</td></tr>
+<tr><td>LAN Security and Password Security</td><td>Switching and LAN security issues; ARP spoofing and defenses; DHCP attacks and defenses; packet sniffing; password guessing and digest authentication password analysis</td><td>2</td></tr>
+<tr><td>TCP/IP Security</td><td>IP fragmentation and spoofing; IPv6 security; TCP state management; SYN flooding; sequence number prediction; TCP hijacking; TCP RST attacks and mitigations</td><td>4</td></tr>
+<tr><td>DNS Security</td><td>DNS functions, packet format, and resolution process; DNS root and governance; DNS attack surfaces; interception and injection; cache poisoning; DNS reflection amplification; DNSSEC, DoT, DoH, and related defenses</td><td>4</td></tr>
+<tr><td>Cryptographic Foundations</td><td>Classical and modern cryptographic thinking; hash functions, symmetric-key algorithms, public-key algorithms; key exchange; authentication, confidentiality, integrity, and key management in secure communication protocols</td><td>4</td></tr>
+<tr><td>PKI, TLS, and VPNs</td><td>Public key infrastructure, CAs, and certificate lifecycle; Web PKI trust model and attacks; certificate revocation and Certificate Transparency; TLS principles and attacks; TLS VPNs and other VPN technologies</td><td>4</td></tr>
+<tr><td>Software Security and Exploitation</td><td>Software security threat categories; malware, software cracking, and software vulnerabilities; supply-chain security; stack-based buffer overflow, root-cause analysis, exploit robustness, and mitigation mechanisms</td><td>4</td></tr>
+<tr><td>Web Security</td><td>Web and HTTP fundamentals; frontend, backend, databases, and Web architecture; same-origin policy, cookies, CSP; XSS, CSRF, SQL injection, file upload vulnerabilities, and defenses; OWASP Top 10</td><td>2</td></tr>
+<tr><td>Total</td><td></td><td>32</td></tr>
+</tbody></table></div>
+<h4>6. Online Labs</h4>
+<p>The course includes six online labs to be completed independently on the SecLab platform. Each student is expected to operate the assigned virtual environment, validate key results, and submit an individual lab report.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Lab</th><th>Title</th><th>Main Objectives</th></tr></thead>
+<tbody>
+<tr><td>Lab 1</td><td>Traffic Analysis and Packet Construction Tools</td><td>Become familiar with the lab platform, network topology, and basic protocols; use tcpdump, Wireshark, dig, Scapy, and related tools for traffic capture, protocol analysis, and packet construction</td></tr>
+<tr><td>Lab 2</td><td>LAN Attacks and Password Cracking</td><td>Understand ARP/DHCP-related LAN security issues; observe packet sniffing and man-in-the-middle scenarios; analyze weak passwords or digest authentication passwords</td></tr>
+<tr><td>Lab 3</td><td>DNS Cache Poisoning Attacks and Defenses</td><td>Understand DNS resolution, DNS attack surfaces, and cache poisoning; reproduce attacks in a controlled environment and analyze defenses</td></tr>
+<tr><td>Lab 4</td><td>Virtual Private Networks (VPNs)</td><td>Understand VPN principles, tunneling, and secure communication requirements; complete VPN configuration, connectivity validation, and security analysis</td></tr>
+<tr><td>Lab 5</td><td>Web Site Security</td><td>Analyze authentication, cookies, same-origin policy, and common Web vulnerabilities; practice validation and mitigation of issues such as XSS, CSRF, SQL injection, or file upload vulnerabilities</td></tr>
+<tr><td>Lab 6</td><td>Software Vulnerability Analysis and Exploitation</td><td>Analyze the root causes of software vulnerabilities; understand the triggering, exploitation, and mitigation of representative vulnerabilities such as stack-based buffer overflows</td></tr>
+</tbody></table></div>
+<p>Suggested lab pacing: the six labs are released sequentially throughout the semester, roughly one lab every two weeks. The labs cover network tools, LAN security, DNS security, VPNs, Web security, and software vulnerability analysis. Adjustments may be made around busy academic weeks, but all labs should be completed before the end of the course.</p>
+<p>Lab reports should include major operation steps, screenshots for key checkpoints, configuration or command records, code or scripts, packet-capture analysis, and reflections on problems encountered or further exploration. Each lab should be submitted as a separate report.</p>
+<h4>7. Assessment</h4>
+<ul>
+<li>Labs and assignments:  Evaluation is based on lab reports, code or scripts, completion quality, analytical depth, and timely submission.</li>
+<li>Class participation and performance: 10%. Evaluation is based on discussion, responses to questions, lab sharing, and presentations.</li>
+</ul>
+<h4>8. Ethics and Academic Integrity</h4>
+<p>All hands-on experiments must be conducted only within the authorized SecLab online lab environment. Students must comply with cybersecurity laws, university rules, and professional ethics. Unauthorized scanning, attacking, testing, or data collection against real networks, third-party systems, or other users&#x27; accounts is strictly prohibited.</p>
+    </article>
+  </main>
+</body>
+</html>
